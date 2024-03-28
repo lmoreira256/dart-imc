@@ -1,2 +1,3 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# Dart IMC
+
+Projeto implementado com o intuito de aprender dart na Formação Flutter Specialist da plataforma DIO.

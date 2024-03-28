@@ -4,7 +4,7 @@ import 'dart:io';
 import 'package:imc_app/exception/nome_invalido_exception.dart';
 import 'package:imc_app/models/pessoa.dart';
 
-void calculate() {
+calculate() {
   print("Bem vindo à calculadora IMC!");
 
   print("Informe seu nome:");
@@ -55,4 +55,6 @@ void calculate() {
   } else if (imc >= 40) {
     print("Você está classificado como: Obesidade Grau III (mórbida)!");
   }
+
+  return imc;
 }
